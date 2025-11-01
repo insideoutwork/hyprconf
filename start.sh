@@ -3,8 +3,11 @@
 # start night light
 wl-gammarelay-rs run &
 
+# let it start
+sleep 1 &
+
 # run at 1300k
-busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 1300 &
+busctl --user set-property rs.wl-gammarelay / rs.wl.gammarelay Temperature q 1200 &
 
 #initializing wallpaper daemon
 swww-daemon &
