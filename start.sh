@@ -13,8 +13,7 @@ nm-applet --indicator &
 # the bar
 waybar &
 
-# mako
-mako &
+swaync &
 
 sleep 2
 
